@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Outfit", "sans-serif";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 230px;
+  height: 440px;
+  margin: 150px;
+  border-radius: 10px;
+  padding: 15px 15px 0px 15px;
+  text-align: left;
+  box-shadow: 10px 30px 10px rgba(0, 0, 0, 0.1);
+}
+.equili {
+  height: 230px;
+  border-radius: 10px;
+}
+h4 {
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  margin-top: 10px;
+}
+
+.despc {
+  color: hsl(215, 51%, 70%);
+  font-weight: lighter;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 100px;
+  color: hsl(215, 51%, 70%);
+}
+.attribution a {
+  color: hsl(0, 0%, 48%);
+}
+
+.ETH {
+  margin-top: 20px;
+  margin-right: -15px;
+}
+.etherium {
+  height: 30px;
+  width: 100px;
+  display: inline;
+  font-size: small;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  height: 30px;
+  width: 100px;
+  display: inline;
+  margin-left: 20px;
+  font-size: small;
+  color: hsl(215, 51%, 70%);
+  float: right;
+  align-content: center;
+  align-items: center;
+}
+.texti {
+  display: inline;
+  float: left;
+}
+
+.clocki {
+  display: inline;
+}
+.clock_img {
+  float: left;
+  margin-right: 6px;
+  height: 14px;
+}
+.ethimg {
+  float: left;
+  margin-right: 3px;
+  height: 14px;
+}
+
+.line {
+  border-bottom: 1px hsl(215, 32%, 27%) solid;
+  margin-top: 56px;
+}
+
+.avtaar_photos {
+  width: 23px;
+  height: 23px;
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  margin-top: 15px;
+  float: left;
+  display: inline;
+}
+
+.footer_txt {
+  display: inline;
+  color: hsl(215, 51%, 70%);
+  font-size: small;
+  height: 60px;
+  width: 200px;
+
+  margin-left: 38px;
+  float: left;
+  margin-top: -22px;
+}
+span {
+  color: azure;
+}
+
+/* .equili:hover {
+  background-color: hsl(178, 100%, 50%);
+  color: hsl(178, 100%, 50%);
+  background-image: url("images/icon-view.svg");
+  opacity: 0.2;
+} */
+
+.equili:hover {
+  opacity: 1;
+  color: aqua;
+  cursor: pointer;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+h4:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+img:hover {
+  color: hsl(178, 100%, 50%);
+}
